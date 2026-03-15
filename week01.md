@@ -41,6 +41,14 @@ conda active로 이동하기
 </details>
 
 <details><summary>
+추가내용
+</summary>
+➜ conda install numpy scipy scikit-learn ; //  <br>
+➜ conda install -n 202444011_3 install ipykernel ; //  <br>
+➜ conda list ; // 설치 리스트. <br>
+</details>
+
+<details><summary>
 pandas 설치하기
 </summary>
 ➜ import pandas ; // VS Code에서 <br>
