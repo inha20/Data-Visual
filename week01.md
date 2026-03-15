@@ -24,16 +24,19 @@ print(df) ; //  옆으로 나열. <br>
 <details><summary>
 conda active로 이동하기
 </summary>
-➜ conda activate 202444011_2 ; // 이동하기. <br>
-➜ conda deactivate ; // 되돌아온 후 <br>
-➜ conda activate 202444011 ; // 재이동 가능. <br>
+➜ df = pd.DataFrame(dict)<br>
+print(df) ; // key가 columns. <br>
+➜ df_with_index = df.reset_index().set_index('Name') // index의 이름이 생겼다가 사라짐. <br>
+➜ df_with_index ; // 문자열이 아닌 표로 보여줌. <br>
+➜ df_with_index.reset_index(inplace=True) ; // 원본수정.
 </details>
 
 <details><summary>
-파이썬 커널 설치
+loc, iloc
 </summary>
-➜ conda activate 202444011_2 ; // 이동하기 <br>
-➜ conda install ipykernel ; // 파이썬 커널 설치 <br>
+➜ df.loc ; // 지정인덱스. 슬라이싱 끝에 포함. <br>
+➜ df.iloc ; // 순서인덱스. 슬라이싱 끝에 제외.<br>
+➜ subset = df.loc[0:2, ['Name', 'Age']] <br>
 </details>
 
 <details><summary>
