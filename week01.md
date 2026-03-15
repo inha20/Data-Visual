@@ -16,6 +16,13 @@
 ➜ conda create -n 202444011_2 python=3.12 ; //  파이썬 호환 <br>
 </details>
 
+<details><summary>
+추가내용
+</summary>
+➜ conda env remove -n 202444011_2 ; // 환경 지우기 <br>
+➜ conda create -n 202444011_3 --clone 202444011_2 ; // 202444011_3을 생성. <br>
+</details>
+
 방향키로 기존 명령어 불러오기 가능.
 
 <details><summary>
