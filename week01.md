@@ -10,14 +10,16 @@
 ➜ 문자열.head, 문자열.tail ; // 숫자 넣을 수 있음.<br>
 </details>
 <details><summary>
-개발환경 만들기
+print(pandas.Dataframe())<nbsp><nbsp><nbsp><nbsp>(2)
 </summary>
-➜ conda env list ; // 환경 리스트. <br>
-➜ conda create -n 202444011 ; // 환경 만들기, 이름 붙여서. <br>
-➜ conda create -n 202444011_2 python=3.12 ; //  파이썬 호환 <br>
+➜ data = numpy.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])<br>
+df = pandas.DataFrame(data, columns=['A', 'B', 'C'])<br>
+print(df) ; //  옆으로 나열. <br>
+➜ print(f"'A' 컬럼의 타입: {type(df['A'])}") ; // series 형태로 반환. df는 임시저장 series. <br>
+➜ print(column_a.index), print(list(column_a.index)) ; // 시작부터 끝이 되기 전까지, 간격. <br>
+➜ df.dtypes ; // int64. <br>
 </details>
 
-방향키로 기존 명령어 불러오기 가능.
 
 <details><summary>
 conda active로 이동하기
