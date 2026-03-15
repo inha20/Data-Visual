@@ -10,7 +10,7 @@
 ➜ 문자열.head, 문자열.tail ; // 숫자 넣을 수 있음.<br>
 </details>
 <details><summary>
-print(pandas.Dataframe())<nbsp><nbsp><nbsp><nbsp>(2)
+print(pandas.Dataframe()) <&nbsp><&nbsp><&nbsp><&nbsp> (2)
 </summary>
 ➜ data = numpy.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])<br>
 df = pandas.DataFrame(data, columns=['A', 'B', 'C'])<br>
