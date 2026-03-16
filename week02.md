@@ -22,7 +22,7 @@ print(df) ; //  옆으로 나열. <br>
 
 
 <details><summary>
-conda active로 이동하기
+df의 객체지향
 </summary>
 ➜ df = pd.DataFrame(dict)<br>
 print(df) ; // key가 columns. <br>
@@ -45,3 +45,11 @@ pandas 설치하기
 ➜ import pandas ; // VS Code에서 <br>
 ➜ conda install pandas ; // prompt에서 <br>
 </details>
+
+<details><summary>
+조작
+</summary>
+➜ b, dd ; // 생기기, 지우기. <br>
+➜ y, m ; // 텍스트모드와 코딩모드. <br>
+</details>
+
