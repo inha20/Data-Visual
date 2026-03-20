@@ -63,6 +63,6 @@ pandas 설치하기
 실습후기
 </summary>
 ➜ 소괄호와 대괄호 주의, 문자열 표시하기. <br> 
-&nbsp&nbsp&nbsp&nbsp loc와 iloc는 대괄호, series는 대괄호, 좌표는 소괄호, 마스크는 대괄호(사유 : series)
+&nbsp&nbsp&nbsp&nbsp ⤷loc와 iloc는 대괄호, series는 대괄호, 좌표는 소괄호, 마스크는 대괄호(사유 : series)
 </details>
 
