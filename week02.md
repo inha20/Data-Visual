@@ -35,7 +35,7 @@ print(df) ; // key가 columns. <br>
 loc, iloc
 </summary>
 ➜ df.loc ; // 지정인덱스. 슬라이싱 끝에 포함. <br>
-➜ df.iloc ; // 순서인덱스. 슬라이싱 끝에 제외.<br>
+➜ df.iloc ; // 순서인덱스. 슬라이싱 끝에 제외. columns도 됨.<br>
 ➜ subset = df.loc[0:2, ['Name', 'Age']] <br>
 </details>
 
