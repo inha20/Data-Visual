@@ -59,3 +59,9 @@ pandas 설치하기
 ➜ 불리언인덱싱 ; // filtered_data = df[df['Age'] > 25] <br> 
 </details>
 
+<details><summary>
+실습후기
+</summary>
+➜ 소괄호와 대괄호 주의, 문자열 표시하기. <br> 
+</details>
+
