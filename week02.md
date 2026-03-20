@@ -56,7 +56,6 @@ pandas 설치하기
 <details><summary>
 마스크
 </summary>
-➜ b, dd ; // 생기기, 지우기. <br>
-➜ y, m ; // 텍스트모드와 코딩모드. <br>
+➜ 불리언인덱싱 ; // filtered_data = df[df['Age'] > 25] <br> 
 </details>
 
