@@ -73,3 +73,11 @@ sort와 결측치
 ➜ 결측치 ; NaN, NaT <br> 
 ➜ sort_index
 </details>
+
+<details><summary>
+CSV
+</summary>
+➜ Comma Seperated Values <br> 
+➜ panda.read_csv("이름.csv", usecols=["",""], index_col="", na_values=["Not Available",""], nrows=3, skiprows=[4,5]) <br>
+➜ set index <br> 
+</details>
