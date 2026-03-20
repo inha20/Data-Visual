@@ -25,7 +25,7 @@ print(df) ; //  옆으로 나열. <br>
 df의 객체지향
 </summary>
 ➜ df = pd.DataFrame(dict)<br>
-print(df) ; // key가 columns. <br>
+print(df) ; // key가 columns. index=[]으로 지정 가능. <br>
 ➜ df_with_index = df.reset_index().set_index('Name') // index의 이름이 생겼다가 사라짐. <br>
 ➜ df_with_index ; // 문자열이 아닌 표로 보여줌. <br>
 ➜ df_with_index.reset_index(inplace=True) ; // 원본수정.
