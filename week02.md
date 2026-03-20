@@ -53,3 +53,10 @@ pandas 설치하기
 ➜ y, m ; // 텍스트모드와 코딩모드. <br>
 </details>
 
+<details><summary>
+마스크
+</summary>
+➜ b, dd ; // 생기기, 지우기. <br>
+➜ y, m ; // 텍스트모드와 코딩모드. <br>
+</details>
+
