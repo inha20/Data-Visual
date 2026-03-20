@@ -67,8 +67,9 @@ pandas 설치하기
 </details>
 
 <details><summary>
-sort
+sort와 결측치
 </summary>
-➜ sort_values(by="", ascending=False, ignore_index=True, inplace=True) <br> 
-&nbsp&nbsp&nbsp&nbsp ⤷서로 영향을 주니 조심해서.
+➜ sort_values(by="", na_position="first", ascending=False, ignore_index=True, inplace=True) <br> 
+➜ 결측치 ; NaN, NaT <br> 
+➜ sort_index
 </details>
