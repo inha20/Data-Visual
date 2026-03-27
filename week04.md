@@ -5,7 +5,7 @@
 </summary>
 ➜ numpy의 Series는 원래 길쭉해서 위에서 아래로 반환하며 Series를 반환.<br>
 ➜ np.nan은 not a number라 float형.<br>
-➜ 시리즈에 배열 인덱스를 쓸 수 있어. [].<br>
+➜ 판다 시리즈 밖에서 None을 넣을때 시리즈에 배열 인덱스를 쓸 수 있어. [].<br>
 ➜ 문자열.dtypes ; // str은 명시적, object는 묵시적.<br>
 ➜ 문자열.head, 문자열.tail ; // 숫자 넣을 수 있음.<br>
 </details>
