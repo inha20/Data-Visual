@@ -3,8 +3,8 @@
 >축과 결측치
 <details><summary>print(pandas.Dataframe())
 </summary>
-➜ Empty DataFrame ; //  columns가 나오고 index가 나온다.<br>
-➜ 리스트 문자열 ; // 0번 columns 안에 나열된다.<br>
+➜ numpy의 Series는 원래 길쭉해서 위에서 아래로 반환하며 Series를 반환.<br>
+➜ np.nan은 not a number라 float형.<br>
 ➜ 문자열.shape ; // (index방향, columns 방향)으로 총 갯수.<br>
 ➜ 문자열.dtypes ; // str은 명시적, object는 묵시적.<br>
 ➜ 문자열.head, 문자열.tail ; // 숫자 넣을 수 있음.<br>
