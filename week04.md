@@ -16,7 +16,7 @@
 
 
 
-<details><summary>축과 연산 메소드
+<details><summary>축(axis= )과 결측치를 제외하는 연산 메소드
 </summary>
 ➜ sum<br>
 ➜ count는 결측치 제외<br>
