@@ -1,7 +1,7 @@
 # pandas prompt
 
 >축과 결측치
-<details><summary>결측치
+<details><summary>실수형 결측치와 다른 결측치
 </summary>
 ➜ numpy의 Series는 원래 길쭉해서 위에서 아래로 반환하며 Series를 반환.<br>
 ➜ np.nan은 not a number라 float형.<br>
