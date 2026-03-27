@@ -60,5 +60,5 @@
 ➜ 문자열.dtypes ; // str은 명시적, object는 묵시적.<br>
 ➜ 문자열.head, 문자열.tail ; // 숫자 넣을 수 있음.<br>
 </details>
-**
+
 
