@@ -16,7 +16,7 @@
 
 
 
-<details><summary>print(pandas.Dataframe())
+<details><summary>축과 연산 메소드
 </summary>
 ➜ Empty DataFrame ; //  columns가 나오고 index가 나온다.<br>
 ➜ 리스트 문자열 ; // 0번 columns 안에 나열된다.<br>
