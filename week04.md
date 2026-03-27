@@ -9,6 +9,7 @@
 ➜ s.dropna()로 결측치 날리기. 다만 inplace true는 별도로.<br>
 ➜ numpy의 소수세계 말고, panda의 Not A _ 이랑 Not A Time이 있음. <br>
 ➜ numpy의 소수세계 밖 panda에서도 정수의 실수 통일은 일어남. <br>
+➜ 정수로 강제로 넣기 위해 dtype="int64" 사용. 정수묶기만 하면 기본값인 실수로 처리됨.<br>
 </details>
 
 
