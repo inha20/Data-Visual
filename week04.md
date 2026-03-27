@@ -6,10 +6,12 @@
 ➜ numpy의 Series는 원래 길쭉해서 위에서 아래로 반환하며 Series를 반환.<br>
 ➜ np.nan은 Not A Number라 float형.<br>
 ➜ 판다 시리즈 밖에서 None을 넣을때 시리즈에 배열 인덱스를 쓸 수 있어. [].<br>
-➜ s.dropna()로 결측치 날리기. 다만 inplace true는 별도로.<br>
+➜ s.dropna()로 결측치 날리기. 다만 inplace true는 별도로. (how="all", 기본값 "any").<br>
 ➜ numpy의 소수세계 말고, panda의 Not A _ 이랑 Not A Time이 있음. <br>
 ➜ numpy의 소수세계 밖 panda에서도 정수의 실수 통일은 일어남. <br>
-➜ 정수로 강제로 넣기 위해 dtype="int64" 사용. 정수묶기만 하면 기본값인 실수로 처리됨.<br>
+➜ 정수로 강제로 넣기 위해 dtype="int64" 사용. 정수묶기만 하면 기본값인 실수로 처리됨.
+<br>
+➜ s.fillna로 결측치를 채울 수 있음. <br>
 </details>
 
 
