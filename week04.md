@@ -1,6 +1,6 @@
 # pandas prompt
 
->touch for open these
+>축과 결측치
 <details><summary>print(pandas.Dataframe())
 </summary>
 ➜ Empty DataFrame ; //  columns가 나오고 index가 나온다.<br>
