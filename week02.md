@@ -40,13 +40,6 @@ loc, iloc
 </details>
 
 <details><summary>
-pandas 설치하기
-</summary>
-➜ import pandas ; // VS Code에서 <br>
-➜ conda install pandas ; // prompt에서 <br>
-</details>
-
-<details><summary>
 조작
 </summary>
 ➜ b, dd ; // 생기기, 지우기. <br>
