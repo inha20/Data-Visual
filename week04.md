@@ -29,7 +29,7 @@
 
 
 
-<details><summary>print(pandas.Dataframe())
+<details><summary>multi index
 </summary>
 ➜ Empty DataFrame ; //  columns가 나오고 index가 나온다.<br>
 ➜ 리스트 문자열 ; // 0번 columns 안에 나열된다.<br>
