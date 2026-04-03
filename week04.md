@@ -48,13 +48,10 @@
 
 
 
-<details><summary>multy index와 Database
+<details><summary>multy index와 Series
 </summary>
 ➜ np.array(data_x), arr.reshape(4,6) ; // <br>
 ➜ health_data.loc[2014, ('Bob','HR')] ; // 튜플은 계층을 표현.<br>
-➜ 문자열.shape ; // (index방향, columns 방향)으로 총 갯수.<br>
-➜ 문자열.dtypes ; // str은 명시적, object는 묵시적.<br>
-➜ 문자열.head, 문자열.tail ; // 숫자 넣을 수 있음.<br>
 </details>
 
 
