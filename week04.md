@@ -38,7 +38,7 @@
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ['Even' if x % 2 == 0 else 'Odd' for x in numbers]<br>
    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [num for row in matrix for num in row]<br>
    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp {x: x**2 for x in range(5)}<br>
-➜ panda.MultiIndex.from_tuples(index) ; // list type, MultiIndex type.<br>
+➜ panda.MultiIndex.from_tuples(index) ; // list type, MultiIndex type. ; // 멀티인덱스 각각에 names 줄 수 있어.<br>
 ➜ 문자열.dtypes ; // str은 명시적, object는 묵시적.<br>
 ➜ 문자열.head, 문자열.tail ; // 숫자 넣을 수 있음.<br>
 </details>
