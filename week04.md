@@ -50,7 +50,7 @@
 
 <details><summary>print(pandas.Dataframe())
 </summary>
-➜ np.array(data_x) ; // <br>
+➜ np.array(data_x), arr.reshape(4,6) ; // <br>
 ➜ 리스트 문자열 ; // 0번 columns 안에 나열된다.<br>
 ➜ 문자열.shape ; // (index방향, columns 방향)으로 총 갯수.<br>
 ➜ 문자열.dtypes ; // str은 명시적, object는 묵시적.<br>
