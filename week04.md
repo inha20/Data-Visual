@@ -48,7 +48,7 @@
 
 
 
-<details><summary>print(pandas.Dataframe())
+<details><summary>multy index와 Database
 </summary>
 ➜ np.array(data_x), arr.reshape(4,6) ; // <br>
 ➜ 리스트 문자열 ; // 0번 columns 안에 나열된다.<br>
