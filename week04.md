@@ -41,6 +41,7 @@
 ➜ panda.MultiIndex.from_tuples(index) ; // list type, MultiIndex type. ; // 멀티인덱스 각각에 names 줄 수 있어.<br>
 ➜ from_product, from_arrays, from_frame ; // 조작) ctrl shift -로 셀 분리 <br>
 ➜ reindex <br>
+➜ df.index.names = ["",""] <br>
 </details>
 
 
