@@ -40,7 +40,7 @@
    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp {x: x**2 for x in range(5)}<br>
 ➜ panda.MultiIndex.from_tuples(index) ; // list type, MultiIndex type. ; // 멀티인덱스 각각에 names 줄 수 있어.<br>
 ➜ from_product, from_arrays, from_frame ; // 조작) ctrl shift -로 셀 분리 <br>
-➜ reindex ; // 숫자 넣을 수 있음.<br>
+➜ reindex <br>
 </details>
 
 
