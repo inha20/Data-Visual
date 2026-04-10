@@ -66,6 +66,7 @@
 ➜ join()은  인덱스 기준이 디폴트, merge()는 컬럼 기준이 디폴트<br>
 ➜ on, left_on, right_index=True<br>
 ➜ 일반적으로 NaN, dtype="string"이면 <NA>.<br>
+➜ profix, suffix. suffixes=["", ""]<br>
 </details>
 
 
