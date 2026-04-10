@@ -64,7 +64,7 @@
 ➜ 항목의 이름이 같으면 붙임. <br>
 ➜ one to one join 은 공통칼럼이 앞으로이지만 아름 다르면 두 번 출력, many to one은 이어져서.<br>
 ➜ join()은  인덱스 기준이 디폴트, merge()는 컬럼 기준이 디폴트<br>
-➜ 문자열.dtypes ; // str은 명시적, object는 묵시적.<br>
+➜ on, left_on, right_index=True<br>
 ➜ 문자열.head, 문자열.tail ; // 숫자 넣을 수 있음.<br>
 </details>
 
