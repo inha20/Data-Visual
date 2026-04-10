@@ -67,6 +67,7 @@
 ➜ on, left_on, right_index=True<br>
 ➜ 일반적으로 NaN, dtype="string"이면 NA.<br>
 ➜ profix, suffix. suffixes=["", ""]<br>
+➜ how="right"는 칼럼을 다 적은 다음 right의 df를 연장해서.<br>
 </details>
 
 
