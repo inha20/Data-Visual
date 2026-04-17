@@ -79,8 +79,8 @@
 ➜ 제일 안쪽에 있는 레벨을 움직이는 것이 stack()의 default값.<br>
 ➜ .groupby(df[""])를 한 후 for문으로 값 순회해야 보여.<br>
 ➜ .get_group("")<br>
-➜  <br>
-➜ profix, suffix. suffixes=["", ""]<br>
+➜ 멀티인덱스는 여러개가 있을 때 기본값으로.<br>
+➜ unstack()은 reset_index()와 달리 멀티인덱스 상황에서 특정 인덱스를 컬럼으로 이동<br>
 ➜ how="right"는 칼럼을 다 적은 다음 right의 df를 연장해서.<br>
 </details>
 
