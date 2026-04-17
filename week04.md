@@ -81,7 +81,10 @@
 ➜ .get_group("")<br>
 ➜ 멀티인덱스는 여러개가 있을 때 기본값으로.<br>
 ➜ unstack()은 reset_index()와 달리 멀티인덱스 상황에서 특정 인덱스를 컬럼으로 이동<br>
-➜ how="right"는 칼럼을 다 적은 다음 right의 df를 연장해서.<br>
+➜ 집계함수 min(), .aggregate(['min', np.median, 'max'])<br>
+➜ map(lampda, [])는 들어가서 하나하나 다 계산해라.<br>
+➜ filter(lampda, [])는 조건에 맞지 않으면 버리란 뜻.<br>
+➜ lambda x: 에서 x는 그룹에 해당; 그룹의 타입은 데이터프레임(시리즈 아님)<br>
 </details>
 
 
