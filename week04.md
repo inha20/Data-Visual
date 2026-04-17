@@ -76,7 +76,7 @@
 <details><summary>7주차
 </summary>
 ➜ stack 하면 MultiEndex 생김. <br>
-➜ 제일 안쫏에 있는 레벨을 움직이는 것이 stack()의 default값.<br>
+➜ 제일 안쪽에 있는 레벨을 움직이는 것이 stack()의 default값.<br>
 ➜ join()은  인덱스 기준이 디폴트, merge()는 컬럼 기준이 디폴트<br>
 ➜ on, left_on="name", right_index=True<br>
 ➜ 일반적으로 NaN, dtype="string"이면 NA.<br>
