@@ -73,7 +73,7 @@
 
 
 
-<details><summary>7주차
+<details><summary>그룹 이야기
 </summary>
 ➜ stack() 하면 MultiEndex 생김. <br>
 ➜ 제일 안쪽에 있는 레벨을 움직이는 것이 stack()의 default값.<br>
