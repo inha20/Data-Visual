@@ -49,7 +49,7 @@
 
 
 
-<details><summary>multy index와 Series
+<details><summary>multi index와 Series
 </summary>
 ➜ np.array(data_x), arr.reshape(4,6) ; // <br>
 ➜ health_data.loc[2014, ('Bob','HR')] ; // 튜플은 계층을 표현.<br>
