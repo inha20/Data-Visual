@@ -78,7 +78,7 @@
 ➜ stack() 하면 MultiEndex 생김. <br>
 ➜ 제일 안쪽에 있는 레벨을 움직이는 것이 stack()의 default값.<br>
 ➜ .groupby(df[""])를 한 후 for문으로 값 순회해야 보여.<br>
-➜ on, left_on="name", right_index=True<br>
+➜ 이때 튜플의 앞은 그룹, 뒤는 값. 위계가 있어.<br>
 ➜ 일반적으로 NaN, dtype="string"이면 NA.<br>
 ➜ profix, suffix. suffixes=["", ""]<br>
 ➜ how="right"는 칼럼을 다 적은 다음 right의 df를 연장해서.<br>
