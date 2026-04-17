@@ -42,7 +42,7 @@
 ➜ from_product, from_arrays, from_frame ; // 조작) ctrl shift -로 셀 분리 <br>
 ➜ reindex <br>
 ➜ df.index.names = ["",""] <br>
-➜ 멀티인덱스엔 레벨이 있어 <br>
+➜ 멀티인덱스엔 레벨이 있어. 0부터 <br>
 </details>
 
 
