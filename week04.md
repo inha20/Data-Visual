@@ -71,3 +71,16 @@
 </details>
 
 
+
+<details><summary>7주차
+</summary>
+➜ stack 하면 MultiEndex 생김. <br>
+➜ one to one join 은 공통칼럼이 앞으로이지만 이름 다르면 두 번 출력, many to one은 이어져서.<br>
+➜ join()은  인덱스 기준이 디폴트, merge()는 컬럼 기준이 디폴트<br>
+➜ on, left_on="name", right_index=True<br>
+➜ 일반적으로 NaN, dtype="string"이면 NA.<br>
+➜ profix, suffix. suffixes=["", ""]<br>
+➜ how="right"는 칼럼을 다 적은 다음 right의 df를 연장해서.<br>
+</details>
+
+
