@@ -32,6 +32,7 @@ Ui
 ➜ print(len(fig.axes))  # 6 - Figure에 추가된 Axes 수 <br>
 ➜  ax2 = fig.add_axes([0.1, 0.1, 0.8, 0.8], label='ax2') <br>
 ➜ plt.tight_layout()  <br>
+➜ ax.tick_params(axis='x', rotation=45)<br>
 </details>
 
 <details><summary>
