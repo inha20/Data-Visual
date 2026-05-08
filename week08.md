@@ -14,5 +14,6 @@ Axes
 </summary> 
 ➜ plt.subplots(), fig.add_subplot(), fig.add_axes()<br>
 ➜ fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(8, 6),
-                         gridspec_kw={'hspace': 0.5, 'wspace': 0.3}) <br>
+gridspec_kw={'hspace': 0.5, 'wspace': 0.3},
+subplot_kw={'facecolor': 'lightgray'}  ) <br>
 </details>
