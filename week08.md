@@ -1,6 +1,6 @@
 # pandas prompt
 
->
+> import matplotlib.pyplot as plt
 
 <details><summary>
   
