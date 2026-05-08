@@ -16,4 +16,5 @@ Axes
 ➜ fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(8, 6),
 gridspec_kw={'hspace': 0.5, 'wspace': 0.3},
 subplot_kw={'facecolor': 'lightgray', 'xlim': (0, 10), 'ylim': (0, 100)}  ) <br>
+➜ fig, axes = plt.subplots(nrows=3, ncols=1, figsize=(4, 8), squeeze=False) <br>
 </details>
