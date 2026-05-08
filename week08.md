@@ -13,5 +13,6 @@ figure
 Axes
 </summary> 
 ➜ plt.subplots(), fig.add_subplot(), fig.add_axes()<br>
-➜ plt.subplots(nrows=2, ncols=3, figsize=(9, 6)) <br>
+➜ fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(8, 6),
+                         gridspec_kw={'hspace': 0.5, 'wspace': 0.3}) <br>
 </details>
