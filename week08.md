@@ -43,4 +43,12 @@ Ui
 ➜  ax.scatter(df_iris['petal_length'], df_iris['petal_width'], s=80,  # 마커 크기 (markersize가 아닌 s 사용) edgecolors='black', alpha=0.7)<br>
 ➜  ax.hist(df_iris['sepal_length'])<br>
 ➜  ax.boxplot(리스트)<br>
+➜  ax.boxplot(리스트)<br>
+➜  ax.boxplot(리스트)<br>
+➜  ax.boxplot(리스트)<br>
+➜  ax.boxplot(리스트)<br>
+➜  ax.boxplot(리스트)<br>
+➜  ax.boxplot(리스트)<br>
+➜  ax.boxplot(리스트)<br>
+➜  ax.boxplot(리스트)<br>
 </details>
