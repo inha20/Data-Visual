@@ -40,7 +40,7 @@ Ui
 ➜ ax.plot(top20['Overall rank'], top20['Score'], color='antiquewhite', linewidth=5, linestyle='-.', marker='s', markersize=6 ) <br>
 ➜  ax.plot에 label한 것은 ax.legend로 그리고 plt.show()로 볼 수 있어.<br>
 ➜  ax.bar(top10['Country or region'], top10['Score'], color='steelblue', edgecolor='lightblue', linewidth=10)<br>
-➜  <br>
+➜  ax.scatter(df_iris['petal_length'], df_iris['petal_width'], s=80,  # 마커 크기 (markersize가 아닌 s 사용) edgecolors='black', alpha=0.7)<br>
 ➜   <br>
 ➜  <br>
 </details>
