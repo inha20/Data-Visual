@@ -36,11 +36,11 @@ Ui
 <details><summary>
 그래프의 종류별 그리기
 </summary> 
-➜ .set_facecolor('lightblue')<br>
-➜ .set_edgecolor('salmon')  .set_linewidth(10)    ax.spines['top'].set_color('red') <br>
-➜ .set_linewidth(3)    .set_linestyle('--')      .set_visible(False) <br>
-➜ fig.savefig('figure.png')    ax.set_title('제목')    ax.set_xlabel('x축 이름') <br>
-➜ print(len(fig.axes))  # 6 - Figure에 추가된 Axes 수 <br>
-➜  ax2 = fig.add_axes([0.1, 0.1, 0.8, 0.8], label='ax2') <br>
-➜ plt.tight_layout()  <br>
+➜ <br>
+➜  <br>
+➜  <br>
+➜  <br>
+➜  <br>
+➜   <br>
+➜  <br>
 </details>
