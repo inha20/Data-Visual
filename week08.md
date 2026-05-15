@@ -36,8 +36,8 @@ Ui
 <details><summary>
 그래프의 종류별 그리기
 </summary> 
-➜ <br>
-➜  <br>
+➜ plt.tight_layout(),     plt.show()    <br>
+➜ ax.plot(top20['Overall rank'], top20['Score'], color='antiquewhite', linewidth=5, linestyle='-.', marker='s', markersize=6 ) <br>
 ➜  <br>
 ➜  <br>
 ➜  <br>
