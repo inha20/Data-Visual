@@ -38,7 +38,7 @@ Ui
 </summary> 
 ➜ plt.tight_layout(), plt.show(). 축 정보는 ax.<br>
 ➜ ax.plot(top20['Overall rank'], top20['Score'], color='antiquewhite', linewidth=5, linestyle='-.', marker='s', markersize=6 ) <br>
-➜  ax.plot에 label한 것은 ax.legend로 볼 수 있어.<br>
+➜  ax.plot에 label한 것은 ax.legend로 그리고 plt.show()로 볼 수 있어.<br>
 ➜  <br>
 ➜  <br>
 ➜   <br>
