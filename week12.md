@@ -5,7 +5,8 @@
 <details><summary>
 figure
 </summary> 
-➜ sns.get_dataset_names()      sns.load_dataset("tips")<br>
+➜ sns.get_dataset_names()    <br>  
+➜ sns.load_dataset("tips")<br>
 ➜ plt.show(), plt.close("all"). <br>
 </details>
 
