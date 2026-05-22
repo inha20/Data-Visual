@@ -25,7 +25,7 @@ sns 그래프
 ➜ sns.scatterplot(data=df_penguins, x="bill_length_mm", y="flipper_length_mm", hue="species", style="species", size="body_mass_g", sizes=(20, 200))
 <br>
 ➜ sns.lineplot(data=df_flights, x="year", y="passengers", hue="month", style="month", estimator="sum", palette="cool" ) <br>
-➜ sns.relplot(data=df_tips, x="total_bill", y="tip", kind="scatter", col="sex")<br>
+➜ sns.relplot(data=df_tips, x="total_bill", y="tip", kind="scatter",  hue="day", col="sex", row="smoker")<br>
 ➜  <br>
 ➜  <br>
 </details>
