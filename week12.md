@@ -3,7 +3,7 @@
 > import seaborn as sns
 
 <details><summary>
-figure
+sns
 </summary> 
 ➜ sns.get_dataset_names()    <br>  
 ➜ sns.load_dataset("tips")<br>
@@ -11,16 +11,14 @@ figure
 </details>
 
 <details><summary>
-Axes
+pandas
 </summary> 
-➜ plt.subplots(), fig.add_subplot(), fig.add_axes()<br>
-➜ fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(8, 6),
-gridspec_kw={'hspace': 0.5, 'wspace': 0.3},
-subplot_kw={'facecolor': 'lightgray', 'xlim': (0, 10), 'ylim': (0, 100)}  ) <br>
-➜ fig, axes = plt.subplots(nrows=3, ncols=1, figsize=(4, 8), squeeze=False) <br>
-➜ ax1 = fig.add_subplot(2, 3, 1)  # 2행 3열 중 1번째 <br>
-➜ print(len(fig.axes))  # 6 - Figure에 추가된 Axes 수 <br>
-➜ ax2 = fig.add_axes([0.1, 0.1, 0.8, 0.8], label='ax2') <br>
+➜ print(df_tips["smoker"].cat.categories)     # Index(['Yes', 'No'])<br>
+➜  <br>
+➜  <br>
+➜  <br>
+➜  <br>
+➜  <br>
 </details>
 
 <details><summary>
