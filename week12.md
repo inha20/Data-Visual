@@ -21,7 +21,7 @@ pandas
 <details><summary>
 sns 그래프
 </summary> 
-➜ sns.histplot(data=df_tips, x="total_bill", bins=10)<br>
+➜ sns.histplot(data=df_tips, x="total_bill", bins=10, kde=10)<br>
 ➜ <br>
 ➜  <br>
 ➜  <br>
