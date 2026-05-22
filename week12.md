@@ -13,7 +13,7 @@ sns
 <details><summary>
 pandas
 </summary> 
-➜ print(df_tips["smoker"].cat.categories)     # Index(['Yes', 'No'])<br>
+➜ print(df_tips["smoker"].cat.categories)     # Index(['Yes', 'No'])에서 cat은 접근자.<br>
 ➜  <br>
 ➜  <br>
 ➜  <br>
