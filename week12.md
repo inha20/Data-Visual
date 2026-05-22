@@ -14,7 +14,7 @@ sns
 pandas
 </summary> 
 ➜ print(df_tips["smoker"].cat.categories)     # Index(['Yes', 'No'])에서 cat은 접근자.<br>
-➜  <br>
+➜ CategoricalDtype(categories=["S", "M", "L", "XL"], ordered=True) 으로 카테고리 만들기.<br>
 ➜  <br>
 ➜  <br>
 ➜  <br>
