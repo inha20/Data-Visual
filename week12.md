@@ -22,7 +22,8 @@ pandas
 sns 그래프
 </summary> 
 ➜ sns.histplot(data=df_tips, x="total_bill", bins=10, kde=10, hue="sex", multiple="layer", color="coral", alpha=0.8)<br>
-➜ <br>
+➜ sns.scatterplot(data=df_penguins, x="bill_length_mm", y="flipper_length_mm", hue="species", style="species")
+<br>
 ➜  <br>
 ➜  <br>
 ➜  <br>
