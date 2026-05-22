@@ -19,18 +19,6 @@ pandas
 </details>
 
 <details><summary>
-pandas
-</summary> 
-➜ print(df_tips["smoker"].cat.categories)     # Index(['Yes', 'No'])에서 cat은 접근자. 반면 unique는 실제 값이 있어야 포함.<br>
-➜ CategoricalDtype(categories=["S", "M", "L", "XL"], ordered=True) 으로 카테고리 만들기. df["size"] = df["size"].astype(size_type)으로 사용 가능. 특이사항 : print문은 str 변환이라 아스키코드, 관련 조치 없으면 오류나.
-<br>
-➜  <br>
-➜  <br>
-➜  <br>
-➜  <br>
-</details>
-
-<details><summary>
 sns 그래프
 </summary> 
 ➜ sns.histplot(data=df_tips, x="total_bill", bins=10)<br>
