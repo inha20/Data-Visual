@@ -28,8 +28,8 @@ sns 그래프
 ➜ sns.relplot(data=df_tips, x="total_bill", y="tip", kind="scatter",  hue="day", col="sex", row="smoker")<br>
 ➜ sns.barplot(data=df_tips, x="day", y="tip", errorbar=("ci", 95), hue="sex", palette="Set2", estimator="sum", errorbar=None, order=["Thur", "Fri", "Sat", "Sun"], hue_order=["Male", "Female"], orient="h", width=0.9, alpha=0.7) <br>
 ➜ sns.countplot(data=df_titanic, x="class", hue="survived", palette="Set2", order=["First", "Second", "Third"], hue_order=[1, 0], orient="h", width=0.4)<br>
-➜ sns.boxplot(data=df_penguins, x="species", y="flipper_length_mm", hue="sex", palette="Set2")<br>
-➜ <br>
+➜ sns.boxplot(data=df_penguins, x="species", y="flipper_length_mm", hue="sex", palette="Set2", flierprops={"marker": "o", "markeredgecolor": "red", "markerfacecolor": "red", "markersize": 8} )<br>
+➜ sns.violinplot(data=df_penguins, x="species", y="flipper_length_mm", hue="sex", split=True, palette="Set2", inner="quart")<br>
 ➜ <br>
 ➜ <br>
 ➜ <br>
