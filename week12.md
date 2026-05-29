@@ -30,6 +30,14 @@ sns 그래프
 ➜ sns.countplot(data=df_titanic, x="class", hue="survived", palette="Set2", order=["First", "Second", "Third"], hue_order=[1, 0], orient="h", width=0.4)<br>
 ➜ sns.boxplot(data=df_penguins, x="species", y="flipper_length_mm", hue="sex", palette="Set2", flierprops={"marker": "o", "markeredgecolor": "red", "markerfacecolor": "red", "markersize": 8} )<br>
 ➜ sns.violinplot(data=df_penguins, x="species", y="flipper_length_mm", hue="sex", split=True, palette="Set2", inner="quart")<br>
+➜ sns.stripplot(data=df_tips, x="day", y="tip", hue="sex", jitter=False, palette="Set2")<br>
+➜ sns.swarmplot(data=df_tips, x="day", y="tip", hue="sex", palette="Set2", color="black", size=4, alpha=0.3)<br>
+➜ sns.pointplot(data=df_flights, x="year", y="passengers", hue="month", palette="cool", markers=["o"], linestyles=["-"])<br>
+➜ <br>
+➜ <br>
+➜ <br>
+➜ <br>
+➜ <br>
 ➜ <br>
 ➜ <br>
 ➜ <br>
