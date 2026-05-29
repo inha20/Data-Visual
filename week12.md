@@ -33,9 +33,9 @@ sns 그래프
 ➜ sns.stripplot(data=df_tips, x="day", y="tip", hue="sex", jitter=False, palette="Set2")<br>
 ➜ sns.swarmplot(data=df_tips, x="day", y="tip", hue="sex", palette="Set2", color="black", size=4, alpha=0.3)<br>
 ➜ sns.pointplot(data=df_flights, x="year", y="passengers", hue="month", palette="cool", markers=["o"], linestyles=["-"])<br>
-➜ <br>
-➜ <br>
-➜ <br>
+➜ sns.catplot(data=df_tips, x="day", y="tip", kind="bar")<br>
+➜ sns.catplot(data=df_tips, x="day", y="tip", kind="bar", col="sex", row="smoker", hue="day", palette="Set2", legend=False)<br>
+➜ sns.pairplot(data=df_penguins)<br>
 ➜ <br>
 ➜ <br>
 ➜ <br>
