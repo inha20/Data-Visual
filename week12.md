@@ -26,8 +26,8 @@ sns 그래프
 <br>
 ➜ sns.lineplot(data=df_flights, x="year", y="passengers", hue="month", style="month", estimator="sum", palette="cool" ) <br>
 ➜ sns.relplot(data=df_tips, x="total_bill", y="tip", kind="scatter",  hue="day", col="sex", row="smoker")<br>
-➜ sns.barplot(data=df_tips, x="day", y="tip", errorbar=("ci", 95), hue="sex", palette="Set2", estimator="sum", errorbar=None, order=["Thur", "Fri", "Sat", "Sun"], hue_order=["Male", "Female"]) <br>
-➜ <br>
+➜ sns.barplot(data=df_tips, x="day", y="tip", errorbar=("ci", 95), hue="sex", palette="Set2", estimator="sum", errorbar=None, order=["Thur", "Fri", "Sat", "Sun"], hue_order=["Male", "Female"], orient="h", width=0.9, alpha=0.7) <br>
+➜ sns.countplot(data=df_titanic, x="class")<br>
 ➜ <br>
 ➜ <br>
 ➜ <br>
