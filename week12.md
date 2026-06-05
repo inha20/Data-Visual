@@ -120,3 +120,25 @@ plt.show()<br>
 ➜ g = sns.PairGrid(df_penguins, vars=["bill_length_mm", "flipper_length_mm", "body_mass_g"])<br>
 </details>
 
+<details><summary>
+sns.FacetGrid
+</summary> 
+➜ g = sns.PairGrid(df_penguins) <br>
+g.map(sns.scatterplot)<br>
+plt.show()<br>
+<br>
+➜ g = sns.PairGrid(df_penguins)<br>
+g.map_diag(sns.histplot)<br>
+g.map_offdiag(sns.scatterplot)<br>
+plt.show()<br>
+<br>
+➜ g = sns.PairGrid(df_penguins)<br>
+g.map_diag(sns.histplot)<br>
+g.map_upper(sns.scatterplot)<br>
+g.map_lower(sns.kdeplot)<br>
+plt.show()<br>
+<br>
+➜ g.add_legend()<br>
+➜ g = sns.PairGrid(df_penguins, vars=["bill_length_mm", "flipper_length_mm", "body_mass_g"])<br>
+</details>
+
