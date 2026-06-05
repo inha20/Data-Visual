@@ -98,3 +98,11 @@ kind="kde"의 경우 비대각 성분이 2D KDE
 ➜ sns.pairplot(data=df_penguins, vars=["bill_length_mm", "flipper_length_mm", "body_mass_g"], hue="species")
 </details>
 
+<details><summary>
+sns.pairGrid
+</summary> 
+➜ sns.get_dataset_names()    <br>  
+➜ sns.load_dataset("tips")<br>
+➜ plt.show(), plt.close("all"). <br>
+</details>
+
