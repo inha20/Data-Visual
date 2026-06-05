@@ -13,7 +13,7 @@
 print(idx)<br>
 print(idx.year) <br>
   <br>
-➜ print(idx.dayofweek), print(idx.day_name())
+➜ print(idx.dayofweek), print(idx.day_name()), print(idx.quarter)
 ➜ 
 ➜ 
 </details>
