@@ -127,9 +127,9 @@ sns.FacetGrid
 g.map(sns.histplot, "tip")<br>
 plt.show()<br>
 <br>
-➜ g = sns.PairGrid(df_penguins)<br>
-g.map_diag(sns.histplot)<br>
-g.map_offdiag(sns.scatterplot)<br>
+➜ g = sns.FacetGrid(df_tips, col="sex", hue="smoker", palette="Set2")<br>
+g.map(sns.scatterplot, "total_bill", "tip") <br>   
+g.add_legend() <br>                               
 plt.show()<br>
 <br>
 ➜ g = sns.PairGrid(df_penguins)<br>
