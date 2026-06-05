@@ -101,8 +101,12 @@ kind="kde"의 경우 비대각 성분이 2D KDE
 <details><summary>
 sns.pairGrid
 </summary> 
-➜ sns.get_dataset_names()    <br>  
-➜ sns.load_dataset("tips")<br>
-➜ plt.show(), plt.close("all"). <br>
+➜ g = sns.PairGrid(df_penguins) <br>
+g.map(sns.scatterplot)<br>
+plt.show()<br>
+<br>
+➜ g = sns.PairGrid(df_penguins) <br>
+g.map(sns.scatterplot)<br>
+plt.show()<br>
 </details>
 
