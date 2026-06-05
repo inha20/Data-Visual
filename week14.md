@@ -12,7 +12,6 @@
 ➜ idx = pd.DatetimeIndex(['2024-01-01', '2024-06-04', '2024-12-31'])
 print(idx)<br>
 print(idx.year) <br>
-  <br>
 ➜ print(idx.dayofweek), print(idx.day_name()), print(idx.quarter)
 ➜ 
 ➜ 
