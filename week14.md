@@ -1,6 +1,7 @@
 # pandas prompt
 
-> import pandas as dp, from datetime import datetime
+> import pandas as dp
+> from datetime import datetime
 
 <details><summary>
 두 객체의 문자열간 변환
