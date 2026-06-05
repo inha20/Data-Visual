@@ -15,6 +15,6 @@ print(idx)<br>
 print(idx.year) <br>
 ➜ print(idx.dayofweek), print(idx.day_name()), print(idx.quarter)<br>
 ➜ idx = pd.date_range('2024-01-01', periods=12, freq='QE')<br>
-➜ pd.Timedelta
+➜ pd.Timedelta, print(td.days), print(td.seconds), print(td.total_seconds())
 </details>
 
