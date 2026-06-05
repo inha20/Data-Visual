@@ -52,8 +52,8 @@ kind + diag_kind
 kind: "scatter" (기본) / "kde" / "hist" / "reg"
 diag_kind: "auto" (기본) / "hist" / "kde" / None
 
-sns.pairplot(data=df_penguins, kind="kde", diag_kind="hist", hue="species", diag_kws={"multiple": "dodge"})
-plt.show()
+➜ sns.pairplot(data=df_penguins, kind="kde", diag_kind="hist", hue="species", diag_kws={"multiple": "dodge"})
+➜ plt.show()
 
 diag_kws는 대각선 그래프에, plot_kws는 비대각선 그래프에 추가 옵션을 전달
 
@@ -94,5 +94,7 @@ stat: "count", "frequency", "density", "probability"
 kind="kde"의 경우 비대각 성분이 2D KDE
 등고선이 촘촘할수록 → 그 영역에 데이터가 많이 몰려 있음
 등고선이 넓을수록  → 데이터가 넓게 퍼져 있음
+
+➜ sns.pairplot(data=df_penguins, vars=["bill_length_mm", "flipper_length_mm", "body_mass_g"], hue="species")
 </details>
 
