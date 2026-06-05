@@ -16,7 +16,7 @@ print(idx.year) <br>
 ➜ print(idx.dayofweek), print(idx.day_name()), print(idx.quarter)<br>
 ➜ idx = pd.date_range('2024-01-01', periods=12, freq='QE')<br>
 ➜ pd.Timedelta, print(td.days), print(td.seconds), print(td.total_seconds()) <br>
-➜ Timestamp + Timedelta = Timestamp, Timestamp - Timestamp = Timedelta의 편의기능 제공.
+➜ Timestamp + Timedelta = Timestamp, Timestamp - Timestamp = Timedelta의 편의기능 제공. <br>
 ➜ Timestamp와 Timedelta 모두 대소비교 기능 제공.
 </details>
 
