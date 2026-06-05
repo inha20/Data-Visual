@@ -44,7 +44,7 @@ sns 그래프
 </details>
 
 <details><summary>
-sns
+sns.pairplot
 </summary> 
 다변량(Multivariate) — pairplot
   
