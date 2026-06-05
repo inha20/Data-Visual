@@ -8,6 +8,7 @@
 # -----------------------datetime---------------------Timestamp<br>
 # 문자열 → 객체-------datetime.strptime()----------pd.to_datetime()<br>
 # 객체 → 문자열-------dt.strftime()----------------ts.strftime()<br>
+➜ pd.to_datetime('2024년 06월 04일', format='%Y년 %m월 %d일')<br>
 </details>
 
 <details><summary>
