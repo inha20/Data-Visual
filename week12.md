@@ -116,11 +116,11 @@ g.map_upper(sns.scatterplot)<br>
 g.map_lower(sns.kdeplot)<br>
 plt.show()<br>
 <br>
-➜ g = sns.PairGrid(df_penguins)<br>
-g.map_diag(sns.histplot)<br>
-g.map_upper(sns.scatterplot)<br>
-g.map_lower(sns.kdeplot)<br>
-plt.show()<br>
-<br>
+➜ g.add_legend()<br>
+➜ g.add_legend()<br>
+➜ g.add_legend()<br>
+➜ g.add_legend()<br>
+➜ g.add_legend()<br>
+➜ g.add_legend()<br>
 </details>
 
