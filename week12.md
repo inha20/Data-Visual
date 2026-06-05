@@ -136,7 +136,10 @@ plt.show()<br>
 g.map(sns.boxplot, "day", "tip", order=["Thur", "Fri", "Sat", "Sun"])<br>
 plt.show()<br>
 <br>
-➜ g.add_legend()<br>
+➜ g = sns.FacetGrid(df_tips, col="day", col_wrap=3, height=3, aspect=1.2)<br>
+g.map(sns.histplot, "tip")<br>
+plt.show()<br>
+  <br>
 ➜ g = sns.PairGrid(df_penguins, vars=["bill_length_mm", "flipper_length_mm", "body_mass_g"])<br>
 </details>
 
