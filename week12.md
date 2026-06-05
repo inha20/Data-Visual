@@ -105,8 +105,22 @@ sns.pairGrid
 g.map(sns.scatterplot)<br>
 plt.show()<br>
 <br>
-➜ g = sns.PairGrid(df_penguins) <br>
-g.map(sns.scatterplot)<br>
+➜ g = sns.PairGrid(df_penguins)<br>
+g.map_diag(sns.histplot)<br>
+g.map_offdiag(sns.scatterplot)<br>
 plt.show()<br>
+<br>
+➜ g = sns.PairGrid(df_penguins)<br>
+g.map_diag(sns.histplot)<br>
+g.map_upper(sns.scatterplot)<br>
+g.map_lower(sns.kdeplot)<br>
+plt.show()<br>
+<br>
+➜ g = sns.PairGrid(df_penguins)<br>
+g.map_diag(sns.histplot)<br>
+g.map_upper(sns.scatterplot)<br>
+g.map_lower(sns.kdeplot)<br>
+plt.show()<br>
+<br>
 </details>
 
