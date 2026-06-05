@@ -3,11 +3,11 @@
 > import seaborn as sns
 
 <details><summary>
-sns
+두 객체의 문자열간 변환
 </summary> 
-➜ sns.get_dataset_names()    <br>  
-➜ sns.load_dataset("tips")<br>
-➜ plt.show(), plt.close("all"). <br>
+#                   datetime                Timestamp<br>
+# 문자열 → 객체      datetime.strptime()      pd.to_datetime()<br>
+# 객체 → 문자열      dt.strftime()            ts.strftime()<br>
 </details>
 
 <details><summary>
