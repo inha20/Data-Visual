@@ -123,8 +123,8 @@ plt.show()<br>
 <details><summary>
 sns.FacetGrid
 </summary> 
-➜ g = sns.PairGrid(df_penguins) <br>
-g.map(sns.scatterplot)<br>
+➜ g = sns.FacetGrid(df_tips, col="sex")<br>
+g.map(sns.histplot, "tip")<br>
 plt.show()<br>
 <br>
 ➜ g = sns.PairGrid(df_penguins)<br>
