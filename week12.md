@@ -123,7 +123,7 @@ plt.show()<br>
 <details><summary>
 sns.FacetGrid
 </summary> 
-➜ g = sns.FacetGrid(df_tips, col="sex")<br>
+➜ g = sns.FacetGrid(df_tips, col="sex", row="smoker")<br>
 g.map(sns.histplot, "tip")<br>
 plt.show()<br>
 <br>
