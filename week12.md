@@ -46,54 +46,53 @@ sns 그래프
 <details><summary>
 sns
 </summary> 
-# 다변량(Multivariate) — pairplot
+다변량(Multivariate) — pairplot
+  
+kind + diag_kind
+kind: "scatter" (기본) / "kde" / "hist" / "reg"
+diag_kind: "auto" (기본) / "hist" / "kde" / None
 
-# kind + diag_kind
-# kind: "scatter" (기본) / "kde" / "hist" / "reg"
-# diag_kind: "auto" (기본) / "hist" / "kde" / None
 sns.pairplot(data=df_penguins, kind="kde", diag_kind="hist", hue="species", diag_kws={"multiple": "dodge"})
 plt.show()
 
-# diag_kws는 대각선 그래프에, plot_kws는 비대각선 그래프에 추가 옵션을 전달
+diag_kws는 대각선 그래프에, plot_kws는 비대각선 그래프에 추가 옵션을 전달
 
-# 1. diag_kws의 키는
+1. diag_kws의 키는
 
-# diag_kind="hist"일 때 → histplot 파라미터: multiple, bins, binwidth, alpha, stat
-# "multiple": "layer", "stack", "dodge", "fill"
-# bins: 5, 10, 20, 50 (정수)
-# binwidth: 0.5, 1.0, 2.0 (실수)
-# alpha: 0.0 ~ 1.0 (실수)
-# stat: "count", "frequency", "density", "probability"
+diag_kind="hist"일 때 → histplot 파라미터: multiple, bins, binwidth, alpha, stat
+"multiple": "layer", "stack", "dodge", "fill"
+bins: 5, 10, 20, 50 (정수)
+binwidth: 0.5, 1.0, 2.0 (실수)
+alpha: 0.0 ~ 1.0 (실수)
+stat: "count", "frequency", "density", "probability"
 
-# diag_kind="kde"일 때 → kdeplot 파라미터: fill, alpha, linewidth, bw_adjust
-# fill: True, False
-# alpha: 0.0 ~ 1.0 (실수)
-# linewidth: 0.5, 1.0, 2.0 (실수)
-# bw_adjust: 0.5 (뾰족), 1.0 (기본), 2.0 (부드러움)
+diag_kind="kde"일 때 → kdeplot 파라미터: fill, alpha, linewidth, bw_adjust
+fill: True, False
+alpha: 0.0 ~ 1.0 (실수)
+linewidth: 0.5, 1.0, 2.0 (실수)
+bw_adjust: 0.5 (뾰족), 1.0 (기본), 2.0 (부드러움)
 
+2. plot_kws의 키는
 
-# 2. plot_kws의 키는
+kind="scatter"일 때 → scatterplot 파라미터: alpha, s, edgecolor, linewidth
+alpha: 0.0 ~ 1.0 (실수)
+s: 10, 50, 100 (점 크기, 정수)
+edgecolor: "black", "white", "none" (문자열)
+linewidth: 0.5, 1.0, 2.0 (실수)
 
-# kind="scatter"일 때 → scatterplot 파라미터: alpha, s, edgecolor, linewidth
-# alpha: 0.0 ~ 1.0 (실수)
-# s: 10, 50, 100 (점 크기, 정수)
-# edgecolor: "black", "white", "none" (문자열)
-# linewidth: 0.5, 1.0, 2.0 (실수)
+kind="kde"일 때 → kdeplot 파라미터: fill, alpha, linewidth, bw_adjust
+fill: True, False
+alpha: 0.0 ~ 1.0 (실수)
+linewidth: 0.5, 1.0, 2.0 (실수)
+bw_adjust: 0.5 (뾰족), 1.0 (기본), 2.0 (부드러움)
 
-# kind="kde"일 때 → kdeplot 파라미터: fill, alpha, linewidth, bw_adjust
-# fill: True, False
-# alpha: 0.0 ~ 1.0 (실수)
-# linewidth: 0.5, 1.0, 2.0 (실수)
-# bw_adjust: 0.5 (뾰족), 1.0 (기본), 2.0 (부드러움)
+kind="hist"일 때 → histplot 파라미터: bins, alpha, stat
+bins: 5, 10, 20, 50 (정수)
+alpha: 0.0 ~ 1.0 (실수)
+stat: "count", "frequency", "density", "probability"
 
-# kind="hist"일 때 → histplot 파라미터: bins, alpha, stat
-# bins: 5, 10, 20, 50 (정수)
-# alpha: 0.0 ~ 1.0 (실수)
-# stat: "count", "frequency", "density", "probability"
-
-
-# kind="kde"의 경우 비대각 성분이 2D KDE
-# 등고선이 촘촘할수록 → 그 영역에 데이터가 많이 몰려 있음
-# 등고선이 넓을수록  → 데이터가 넓게 퍼져 있음
+kind="kde"의 경우 비대각 성분이 2D KDE
+등고선이 촘촘할수록 → 그 영역에 데이터가 많이 몰려 있음
+등고선이 넓을수록  → 데이터가 넓게 퍼져 있음
 </details>
 
