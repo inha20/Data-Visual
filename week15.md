@@ -9,7 +9,10 @@
 pl
 </summary> 
 ➜ fig = px.scatter(df_gapminder, x="gdpPercap", y="lifeExp",color="continent",size="pop",hover_data=["country"],title="1인당 GDP vs 기대수명",labels={"gdpPercap": "1인당 GDP", "lifeExp": "기대수명"})<br>
-➜ <br>
+➜ print(df_gapminder["continent"].unique())<br>
+<br>
+fig = px.scatter(df_gapminder, x="gdpPercap", y="lifeExp",color="continent",trendline="lowess",trendline_color_override="black",facet_col="continent")
+<br>
  <br>
 ➜ <br>
 ➜ idx = pd.date_range('2024-01-01', periods=12, freq='QE')<br>
