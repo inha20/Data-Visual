@@ -14,7 +14,13 @@ fig = px.scatter(df_gapminder, x="gdpPercap", y="lifeExp",color="continent",tren
 ➜ fig = px.line(df_gapminder, x="year", y="lifeExp",color="continent",line_dash="continent",
 markers=True,title="대륙별 기대수명 변화",labels={"year": "연도", "lifeExp": "기대수명"})<br>
 ➜fig = px.bar(df_medals_long, x="nation", y="count",color="medal",barmode="group",title="국가별 메달 수",labels={"nation": "국가", "count": "메달 수"})<br>
-➜ <br>
+➜ fig = px.histogram(df_tips, x="total_bill",color="sex",nbins=30,
+                   # histnorm="probability",
+                   title="성별 총 계산서 분포",
+                   # hover_data=["smoker"], 
+                   # histogram은 개별 데이터 포인트가 아니라 bin으로 집계된 데이터를 표시하기 때문에 표시 안됨
+                   labels={"total_bill": "총 계산서", "sex": "성별"})
+<br>
 ➜ idx = pd.date_range('2024-01-01', periods=12, freq='QE')<br>
 ➜ pd.Timedelta, print(td.days), print(td.seconds), print(td.total_seconds()) <br>
 ➜ Timestamp + Timedelta = Timestamp, Timestamp - Timestamp = Timedelta의 편의기능 제공. <br>
