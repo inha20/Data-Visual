@@ -12,9 +12,8 @@ pl
 ➜ print(df_gapminder["continent"].unique())<br>
 fig = px.scatter(df_gapminder, x="gdpPercap", y="lifeExp",color="continent",trendline="lowess",trendline_color_override="black",facet_col="continent")<br>
 ➜ fig = px.line(df_gapminder, x="year", y="lifeExp",color="continent",line_dash="continent",
-markers=True,title="대륙별 기대수명 변화",labels={"year": "연도", "lifeExp": "기대수명"})
- <br>
-➜ <br>
+markers=True,title="대륙별 기대수명 변화",labels={"year": "연도", "lifeExp": "기대수명"})<br>
+➜fig = px.bar(df_medals_long, x="nation", y="count",color="medal",barmode="group",title="국가별 메달 수",labels={"nation": "국가", "count": "메달 수"})<br>
 ➜ <br>
 ➜ idx = pd.date_range('2024-01-01', periods=12, freq='QE')<br>
 ➜ pd.Timedelta, print(td.days), print(td.seconds), print(td.total_seconds()) <br>
