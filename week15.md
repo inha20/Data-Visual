@@ -6,11 +6,11 @@
 
 
 <details><summary>
-두 객체의 문자열간 변환
+pl
 </summary> 
 ➜ fig = px.scatter(df_gapminder, x="gdpPercap", y="lifeExp",color="continent",size="pop" , hover_data=["country"])<br>
 ➜ <br>
-) <br>
+ <br>
 ➜ <br>
 ➜ idx = pd.date_range('2024-01-01', periods=12, freq='QE')<br>
 ➜ pd.Timedelta, print(td.days), print(td.seconds), print(td.total_seconds()) <br>
